@@ -32,7 +32,7 @@ async function getData() {
         marker.bindPopup(txt);
 
         const root = document.createElement("p");
-        root.setAttribute("class", "alert-primary");
+        root.setAttribute("class", "alert-primary alert");
         const coords = document.createElement("h5");
         const date = document.createElement("h6");
         const description = document.createElement("p");
